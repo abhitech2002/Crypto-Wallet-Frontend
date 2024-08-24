@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/v1/user/';
+const API_URL = 'https://crypto-wallet-app-eight.vercel.app/api/v1/user/';
 
 export const saveUserData = async (data) => {
   try {
